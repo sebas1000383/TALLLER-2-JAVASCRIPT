@@ -40,7 +40,8 @@ function cargarPunto3()
     let tabla = document.getElementById("tablaDatos2").getElementsByTagName('tbody')[0];       
     for (var i = 0; i < datosObject.simpsons.length; i++) 
     {
-        if(nombre=="")s
+        if(nombre=="")
+        {
             alert("No se encontraron resultados");
             break;
         }
@@ -69,10 +70,10 @@ function cargarPunto3()
                   
     }
     
-
+}
 function cargarPunto4() 
 {         
-    let hair = document.getElementById('input4').value;    
+     hair = document.getElementById('input2').value;    
     let tabla = document.getElementById("tablaDatos3").getElementsByTagName('tbody')[0];       
     for (var i = 0; i < datosObject.simpsons.length; i++) 
     {
