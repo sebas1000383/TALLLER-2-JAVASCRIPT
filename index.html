@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <title>Taller 2</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" 
+        crossorigin="anonymous">
+    </script>
+      
+</head>
+<body>    
+   
+   
+    <table id="tablaDatos"  class="table table-dark table-hover"> 
+        <thead>
+            <tr>Nombre</tr>
+            <tr>edad</tr>
+            <tr>parientes</tr>
+            <tr>cabello</tr>
+            <tr>checked</tr>
+            <tr>icono</tr>
+            <tr>enabled</tr>
+        </thead>   
+        <tbody>
+
+        </tbody>      
+    </table>
+    <br>
+    <button id="btnCargar"  class="btn btn-primary" onclick="cargarPunto1()">Cargar Todo</button>
+    <br>
+    <br>
+
+    <table id="tablaDatos1" class="table table-dark table-hover"> 
+        <thead>
+            <tr>Nombre</tr>            
+            <tr>parientes</tr>         
+        </thead>   
+        <tbody>
+
+        </tbody>      
+    </table>
+    <br>
+    <button id="btnCargar1" class="btn btn-secondary btn-lg" onclick="cargarPunto2()">Cargar Nombres y parientes</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table id="tablaDatos2" class="table table-dark table-hover"> 
+        <thead>
+            <tr>Nombre</tr>
+            <tr>edad</tr>
+            <tr>parientes</tr>
+            <tr>cabello</tr>
+            <tr>checked</tr>
+            <tr>icono</tr>
+            <tr>enabled</tr>
+        </thead>   
+        <tbody>
+
+        </tbody>      
+    </table>
+    <br>
+    <label for="">Por favor, escriba un nombre de los simpsons: </label>
+    <br>
+    <input type="text" id="input1">
+    <button id="btnCargar2" class="btn btn-success" onclick="cargarPunto3()">Consultar</button>
+    <br>
+    <table  class="table table-dark table-hover" id="tablaDatos3" > 
+        <thead>
+            <tr>Nombre</tr>
+            <tr>edad</tr>
+            <tr>parientes</tr>
+            <tr>cabello</tr>
+            <tr>checked</tr>
+            <tr>icono</tr>
+            <tr>enabled</tr>
+        </thead>   
+        <tbody>
+
+        </tbody>      
+    </table>
+    <br>
+    <label for="">Por favor, escriba  el cabello de los simpsons: </label>
+    <br>
+    <input type="text" id="input2">
+    <button id="btnCargar2"  class="btn btn-success"onclick="cargarPunto4()">Consultar</button>
+    <br>
+</body>
+</html>
