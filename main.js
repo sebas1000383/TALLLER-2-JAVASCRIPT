@@ -69,7 +69,7 @@ function cargarPunto3()
                   
     }
     
-}
+
 function cargarPunto4() 
 {         
     let hair = document.getElementById('input4').value;    
